@@ -1,4 +1,15 @@
-Docker: Utilização prática no cenário de Microsserviços
-Denilson Bonatti, Instrutor - Digital Innovation One
+# Meu Projeto PHP com Nginx e MySQL
 
-Muito se tem falado de containers e consequentemente do Docker no ambiente de desenvolvimento. Mas qual a real função de um container no cenários de microsserviços? Qual a real função e quais exemplos práticos podem ser aplicados no dia a dia? Essas são algumas das questões que serão abordadas de forma prática pelo Expert Instructor Denilson Bonatti nesta Live Coding. IMPORTANTE: Agora nossas Live Codings acontecerão no canal oficial da dio._ no YouTube. Então, já corre lá e ative o lembrete! Pré-requisitos: Conhecimentos básicos em Linux, Docker e AWS.
+Este projeto demonstra um ambiente Docker configurado para rodar PHP, Nginx e MySQL, com balanceamento de carga e inserção dinâmica de dados em um banco.
+
+## Estrutura
+
+- **Nginx**: Servidor web com balanceamento de carga.
+- **PHP**: Script de inserção no banco de dados.
+- **MySQL**: Banco de dados para armazenamento dos dados.
+- **Docker Compose**: Orquestração de serviços.
+
+## Requisitos
+
+- Docker
+- Docker Compose
